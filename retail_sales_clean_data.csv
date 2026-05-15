@@ -1,0 +1,101 @@
+order_id,customer_name,employee_id,employee_name,department,employee_region,salary,product_id,product_name,category,product_price,quantity,sales,new_order_date
+1001,Sneha Kapoor,101,Rahul Sharma,Sales,North,55000.00,5,Boat Headphones,Accessories,3000.00,2,6000.00,2024-03-10
+1025,Sara Khan,108,Simran Kaur,Finance,East,65000.00,8,Noise Watch,Smartwatch,5000.00,1,5000.00,2024-02-19
+1030,Aditya Rao,103,Amit Verma,Marketing,West,58000.00,5,Boat Headphones,Accessories,3000.00,1,3000.00,2024-03-20
+1031,Rohan Gupta,104,Sneha Kapoor,Sales,East,52000.00,5,Boat Headphones,Accessories,3000.00,1,3000.00,2024-01-21
+1033,Sneha Kapoor,102,Priya Mehta,Sales,South,60000.00,3,Macbook Air,Laptop,95000.00,5,475000.00,2024-03-28
+1034,Rakesh Singh,108,Simran Kaur,Finance,East,65000.00,5,Boat Headphones,Accessories,3000.00,4,12000.00,2024-02-12
+1066,Nikita Roy,106,Neha Joshi,Marketing,South,62000.00,3,Macbook Air,Laptop,95000.00,3,285000.00,2024-03-17
+1067,Meera Iyer,101,Rahul Sharma,Sales,North,55000.00,4,Dell Inspiron,Laptop,65000.00,4,260000.00,2024-03-29
+1071,Sneha Kapoor,104,Sneha Kapoor,Sales,East,52000.00,5,Boat Headphones,Accessories,3000.00,2,6000.00,2024-01-17
+1072,Priya Mehta,101,Rahul Sharma,Sales,North,55000.00,5,Boat Headphones,Accessories,3000.00,4,12000.00,2024-02-06
+1075,Meera Iyer,107,Vikas Rao,Sales,West,57000.00,4,Dell Inspiron,Laptop,65000.00,4,260000.00,2024-03-16
+1078,Harsh Patel,102,Priya Mehta,Sales,South,60000.00,4,Dell Inspiron,Laptop,65000.00,4,260000.00,2024-01-20
+1080,Sneha Kapoor,108,Simran Kaur,Finance,East,65000.00,5,Boat Headphones,Accessories,3000.00,3,9000.00,2024-01-11
+1081,Sara Khan,106,Neha Joshi,Marketing,South,62000.00,5,Boat Headphones,Accessories,3000.00,2,6000.00,2024-03-14
+1082,Yash Mehra,101,Rahul Sharma,Sales,North,55000.00,3,Macbook Air,Laptop,95000.00,3,285000.00,2024-03-22
+1036,Meera Iyer,101,Rahul Sharma,Sales,North,55000.00,6,Sony Headphones,Accessories,7000.00,4,28000.00,2024-01-06
+1026,Harsh Patel,105,Rohan Gupta,Hr,North,50000.00,7,Apple Watch,Smartwatch,40000.00,2,80000.00,2024-01-08
+1029,Kriti Sharma,102,Priya Mehta,Sales,South,60000.00,7,Apple Watch,Smartwatch,40000.00,3,120000.00,2024-01-31
+1043,Yash Mehra,101,Rahul Sharma,Sales,North,55000.00,7,Apple Watch,Smartwatch,40000.00,3,120000.00,2024-02-12
+1053,Rohan Gupta,107,Vikas Rao,Sales,West,57000.00,7,Apple Watch,Smartwatch,40000.00,4,160000.00,2024-02-19
+1069,Nikita Roy,106,Neha Joshi,Marketing,South,62000.00,7,Apple Watch,Smartwatch,40000.00,3,120000.00,2024-02-02
+1077,Neha Joshi,101,Rahul Sharma,Sales,North,55000.00,7,Apple Watch,Smartwatch,40000.00,3,120000.00,2024-02-06
+1024,Meera Iyer,102,Priya Mehta,Sales,South,60000.00,1,Iphone15,Smartphone,80000.00,1,80000.00,2024-01-31
+1027,Kabir Khan,101,Rahul Sharma,Sales,North,55000.00,1,Iphone15,Smartphone,80000.00,5,400000.00,2024-01-08
+1028,Neha Joshi,102,Priya Mehta,Sales,South,60000.00,2,Samsung S24,Smartphone,70000.00,4,280000.00,2024-02-01
+1037,Karan Shah,104,Sneha Kapoor,Sales,East,52000.00,2,Samsung S24,Smartphone,70000.00,5,350000.00,2024-01-31
+1039,Yash Mehra,103,Amit Verma,Marketing,West,58000.00,2,Samsung S24,Smartphone,70000.00,4,280000.00,2024-02-28
+1047,Pooja Nair,106,Neha Joshi,Marketing,South,62000.00,2,Samsung S24,Smartphone,70000.00,2,140000.00,2024-01-06
+1058,Sara Khan,105,Rohan Gupta,Hr,North,50000.00,2,Samsung S24,Smartphone,70000.00,5,350000.00,2024-01-29
+1062,Sneha Kapoor,105,Rohan Gupta,Hr,North,50000.00,2,Samsung S24,Smartphone,70000.00,3,210000.00,2024-01-09
+1076,Pooja Nair,101,Rahul Sharma,Sales,North,55000.00,2,Samsung S24,Smartphone,70000.00,3,210000.00,2024-01-23
+1061,Pooja Nair,102,Priya Mehta,Sales,South,60000.00,1,Iphone15,Smartphone,80000.00,4,320000.00,2024-01-10
+1014,Rakesh Singh,102,Priya Mehta,Sales,South,60000.00,5,Boat Headphones,Accessories,3000.00,2,6000.00,2024-03-08
+1015,Kriti Sharma,106,Neha Joshi,Marketing,South,62000.00,8,Noise Watch,Smartwatch,5000.00,3,15000.00,2024-02-09
+1068,Nikita Roy,108,Simran Kaur,Finance,East,65000.00,1,Iphone15,Smartphone,80000.00,2,160000.00,2024-03-25
+1017,Nikita Roy,103,Amit Verma,Marketing,West,58000.00,5,Boat Headphones,Accessories,3000.00,2,6000.00,2024-03-29
+1074,Nikita Roy,102,Priya Mehta,Sales,South,60000.00,1,Iphone15,Smartphone,80000.00,5,400000.00,2024-02-01
+1079,Arjun Patel,102,Priya Mehta,Sales,South,60000.00,1,Iphone15,Smartphone,80000.00,5,400000.00,2024-02-06
+1020,Rakesh Singh,104,Sneha Kapoor,Sales,East,52000.00,5,Boat Headphones,Accessories,3000.00,2,6000.00,2024-03-14
+1002,Pallavi Sen,107,Vikas Rao,Sales,West,57000.00,1,Iphone15,Smartphone,80000.00,2,160000.00,2024-03-12
+1019,Pallavi Sen,104,Sneha Kapoor,Sales,East,52000.00,1,Iphone15,Smartphone,80000.00,1,80000.00,2024-02-12
+1023,Meera Iyer,108,Simran Kaur,Finance,East,65000.00,3,Macbook Air,Laptop,95000.00,3,285000.00,2024-01-10
+1041,Rakesh Singh,107,Vikas Rao,Sales,West,57000.00,6,Sony Headphones,Accessories,7000.00,3,21000.00,2024-02-03
+1042,Sneha Kapoor,107,Vikas Rao,Sales,West,57000.00,6,Sony Headphones,Accessories,7000.00,4,28000.00,2024-02-19
+1050,Arjun Patel,108,Simran Kaur,Finance,East,65000.00,6,Sony Headphones,Accessories,7000.00,5,35000.00,2024-03-01
+1052,Yash Mehra,106,Neha Joshi,Marketing,South,62000.00,6,Sony Headphones,Accessories,7000.00,2,14000.00,2024-01-20
+1070,Sneha Kapoor,104,Sneha Kapoor,Sales,East,52000.00,6,Sony Headphones,Accessories,7000.00,2,14000.00,2024-03-16
+1073,Nikita Roy,108,Simran Kaur,Finance,East,65000.00,6,Sony Headphones,Accessories,7000.00,3,21000.00,2024-01-09
+1007,Neha Joshi,106,Neha Joshi,Marketing,South,62000.00,6,Sony Headphones,Accessories,7000.00,1,7000.00,2024-02-01
+1035,Yash Mehra,103,Amit Verma,Marketing,West,58000.00,8,Noise Watch,Smartwatch,5000.00,5,25000.00,2024-01-10
+1040,Pooja Nair,104,Sneha Kapoor,Sales,East,52000.00,4,Dell Inspiron,Laptop,65000.00,4,260000.00,2024-02-05
+1032,Meera Iyer,105,Rohan Gupta,Hr,North,50000.00,1,Iphone15,Smartphone,80000.00,3,240000.00,2024-01-18
+1003,Meera Iyer,107,Vikas Rao,Sales,West,57000.00,4,Dell Inspiron,Laptop,65000.00,1,65000.00,2024-02-24
+1004,Yash Mehra,103,Amit Verma,Marketing,West,58000.00,4,Dell Inspiron,Laptop,65000.00,1,65000.00,2024-02-14
+1038,Neha Joshi,107,Vikas Rao,Sales,West,57000.00,1,Iphone15,Smartphone,80000.00,3,240000.00,2024-03-26
+1006,Rohan Gupta,101,Rahul Sharma,Sales,North,55000.00,4,Dell Inspiron,Laptop,65000.00,2,130000.00,2024-02-28
+1056,Harsh Patel,103,Amit Verma,Marketing,West,58000.00,1,Iphone15,Smartphone,80000.00,5,400000.00,2024-02-24
+1044,Sneha Kapoor,105,Rohan Gupta,Hr,North,50000.00,5,Boat Headphones,Accessories,3000.00,3,9000.00,2024-01-17
+1045,Sara Khan,107,Vikas Rao,Sales,West,57000.00,3,Macbook Air,Laptop,95000.00,4,380000.00,2024-02-06
+1046,Sara Khan,106,Neha Joshi,Marketing,South,62000.00,8,Noise Watch,Smartwatch,5000.00,2,10000.00,2024-01-22
+1048,Nikita Roy,102,Priya Mehta,Sales,South,60000.00,8,Noise Watch,Smartwatch,5000.00,4,20000.00,2024-03-24
+1049,Sneha Kapoor,107,Vikas Rao,Sales,West,57000.00,4,Dell Inspiron,Laptop,65000.00,1,65000.00,2024-01-16
+1051,Yash Mehra,104,Sneha Kapoor,Sales,East,52000.00,5,Boat Headphones,Accessories,3000.00,2,6000.00,2024-02-06
+1054,Pallavi Sen,107,Vikas Rao,Sales,West,57000.00,8,Noise Watch,Smartwatch,5000.00,3,15000.00,2024-02-23
+1055,Nikita Roy,104,Sneha Kapoor,Sales,East,52000.00,5,Boat Headphones,Accessories,3000.00,1,3000.00,2024-02-21
+1059,Priya Mehta,101,Rahul Sharma,Sales,North,55000.00,4,Dell Inspiron,Laptop,65000.00,5,325000.00,2024-03-26
+1060,Pallavi Sen,104,Sneha Kapoor,Sales,East,52000.00,8,Noise Watch,Smartwatch,5000.00,3,15000.00,2024-01-15
+1008,Harsh Patel,107,Vikas Rao,Sales,West,57000.00,5,Boat Headphones,Accessories,3000.00,3,9000.00,2024-01-30
+1009,Kabir Khan,107,Vikas Rao,Sales,West,57000.00,5,Boat Headphones,Accessories,3000.00,5,15000.00,2024-03-24
+1010,Aditya Rao,108,Simran Kaur,Finance,East,65000.00,3,Macbook Air,Laptop,95000.00,2,190000.00,2024-03-15
+1057,Harsh Patel,103,Amit Verma,Marketing,West,58000.00,1,Iphone15,Smartphone,80000.00,3,240000.00,2024-02-18
+1013,Sneha Kapoor,105,Rohan Gupta,Hr,North,50000.00,6,Sony Headphones,Accessories,7000.00,4,28000.00,2024-02-03
+1018,Pooja Nair,107,Vikas Rao,Sales,West,57000.00,6,Sony Headphones,Accessories,7000.00,1,7000.00,2024-01-03
+1083,Rohan Gupta,108,Simran Kaur,Finance,East,65000.00,6,Sony Headphones,Accessories,7000.00,3,21000.00,2024-02-12
+1021,Riya Singh,108,Simran Kaur,Finance,East,65000.00,7,Apple Watch,Smartwatch,40000.00,1,40000.00,2024-02-22
+1084,Nikita Roy,105,Rohan Gupta,Hr,North,50000.00,7,Apple Watch,Smartwatch,40000.00,4,160000.00,2024-01-15
+1022,Priya Mehta,102,Priya Mehta,Sales,South,60000.00,1,Iphone15,Smartphone,80000.00,3,240000.00,2024-01-25
+1005,Priya Mehta,108,Simran Kaur,Finance,East,65000.00,2,Samsung S24,Smartphone,70000.00,5,350000.00,2024-02-16
+1012,Neha Joshi,107,Vikas Rao,Sales,West,57000.00,2,Samsung S24,Smartphone,70000.00,5,350000.00,2024-03-11
+1016,Priya Mehta,104,Sneha Kapoor,Sales,East,52000.00,2,Samsung S24,Smartphone,70000.00,1,70000.00,2024-01-17
+1063,Amit Shah,107,Vikas Rao,Sales,West,57000.00,8,Noise Watch,Smartwatch,5000.00,3,15000.00,2024-03-31
+1064,Sara Khan,103,Amit Verma,Marketing,West,58000.00,5,Boat Headphones,Accessories,3000.00,4,12000.00,2024-02-04
+1065,Riya Singh,102,Priya Mehta,Sales,South,60000.00,5,Boat Headphones,Accessories,3000.00,4,12000.00,2024-02-13
+1085,Rakesh Singh,101,Rahul Sharma,Sales,North,55000.00,8,Noise Watch,Smartwatch,5000.00,2,10000.00,2024-03-04
+1086,Priya Mehta,104,Sneha Kapoor,Sales,East,52000.00,5,Boat Headphones,Accessories,3000.00,3,9000.00,2024-01-16
+1087,Kriti Sharma,104,Sneha Kapoor,Sales,East,52000.00,3,Macbook Air,Laptop,95000.00,5,475000.00,2024-01-15
+1088,Sneha Kapoor,103,Amit Verma,Marketing,West,58000.00,8,Noise Watch,Smartwatch,5000.00,5,25000.00,2024-03-02
+1089,Riya Singh,108,Simran Kaur,Finance,East,65000.00,3,Macbook Air,Laptop,95000.00,5,475000.00,2024-01-09
+1090,Sara Khan,106,Neha Joshi,Marketing,South,62000.00,5,Boat Headphones,Accessories,3000.00,3,9000.00,2024-03-25
+1091,Arjun Patel,108,Simran Kaur,Finance,East,65000.00,8,Noise Watch,Smartwatch,5000.00,5,25000.00,2024-02-11
+1092,Riya Singh,107,Vikas Rao,Sales,West,57000.00,4,Dell Inspiron,Laptop,65000.00,3,195000.00,2024-02-18
+1097,Harsh Patel,103,Amit Verma,Marketing,West,58000.00,5,Boat Headphones,Accessories,3000.00,3,9000.00,2024-02-17
+1099,Nikita Roy,103,Amit Verma,Marketing,West,58000.00,4,Dell Inspiron,Laptop,65000.00,4,260000.00,2024-02-29
+1011,Pallavi Sen,107,Vikas Rao,Sales,West,57000.00,6,Sony Headphones,Accessories,7000.00,5,35000.00,2024-01-15
+1095,Yash Mehra,106,Neha Joshi,Marketing,South,62000.00,7,Apple Watch,Smartwatch,40000.00,3,120000.00,2024-02-18
+1098,Arjun Patel,104,Sneha Kapoor,Sales,East,52000.00,7,Apple Watch,Smartwatch,40000.00,2,80000.00,2024-02-18
+1096,Nikita Roy,101,Rahul Sharma,Sales,North,55000.00,2,Samsung S24,Smartphone,70000.00,2,140000.00,2024-01-13
+1100,Meera Iyer,103,Amit Verma,Marketing,West,58000.00,2,Samsung S24,Smartphone,70000.00,5,350000.00,2024-03-29
+1093,Arjun Patel,108,Simran Kaur,Finance,East,65000.00,1,Iphone15,Smartphone,80000.00,5,400000.00,2024-02-26
+1094,Rakesh Singh,108,Simran Kaur,Finance,East,65000.00,1,Iphone15,Smartphone,80000.00,4,320000.00,2024-01-10
