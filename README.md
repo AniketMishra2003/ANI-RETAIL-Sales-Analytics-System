@@ -1,243 +1,96 @@
-# AniRetail: End-to-End PostgreSQL Retail Analytics Project
+# 🛒 AniRetail — End-to-End PostgreSQL Retail Analytics
 
-## Overview
-AniRetail is an end-to-end PostgreSQL retail analytics project focused on transforming raw retail transaction data into a structured, normalized, and analysis-ready relational database system. The project demonstrates the complete data analytics workflow — from raw data cleaning to database normalization and SQL-based business analysis.
+<p align="center">
+  <img src="https://img.shields.io/badge/PostgreSQL-Analytics-336791?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/SQL-Data%20Analysis-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+  <img src="https://img.shields.io/badge/RDBMS-3NF-2E8B57?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Data-Analytics-F39C12?style=for-the-badge" />
+</p>
 
-This project was built to simulate a real-world retail analytics environment where businesses need clean, structured, and reliable data for decision-making and performance analysis.
-
----
-
-# Project Objectives
-
-- Clean and preprocess raw retail transaction data
-- Handle duplicates, missing values, inconsistent formats, and datatype issues
-- Normalize the dataset into relational database tables using Third Normal Form (3NF)
-- Design and implement PostgreSQL database schema
-- Perform SQL-based business analysis
-- Generate actionable insights related to sales, products, and employee performance
+<p align="center">
+  <b>Transforming Raw Retail Data into Structured, Reliable & Actionable Business Insights</b>
+</p>
 
 ---
 
-# Tech Stack
+## 📌 Project Overview
 
-- PostgreSQL
-- SQL
-- CSV Dataset
-- Data Cleaning Techniques
-- Relational Database Management System (RDBMS)
+**AniRetail** is an end-to-end **PostgreSQL retail analytics project** focused on transforming raw retail transaction data into a structured, normalized, and analysis-ready relational database system.
 
----
+The project simulates a real-world retail analytics environment where organizations require **clean, reliable, and well-structured data** to monitor sales performance, evaluate products and employees, and support data-driven decision-making.
 
-# Project Workflow
+The project covers the complete analytics workflow:
 
-## 1. Raw Data Collection
-The project started with a raw retail sales dataset containing:
-- Duplicate records
-- Missing values
-- Extra spaces
-- Inconsistent text formatting
-- Mixed date formats
-- Incorrect datatypes
-- Redundant information
+> **Raw Data → Data Cleaning → Validation → Normalization → Database Design → Data Insertion → SQL Analysis → Business Insights**
 
 ---
 
-## 2. Data Cleaning & Preprocessing
+# 🎯 Project Objectives
 
-Comprehensive data cleaning was performed using PostgreSQL.
+The project was developed to:
 
-### Cleaning Steps Performed
-- Removed duplicate rows
-- Trimmed extra spaces
-- Standardized text formatting
-- Fixed inconsistent category values
-- Handled missing values
-- Standardized date formats
-- Corrected datatypes
-- Recalculated invalid sales values
-
-### SQL Functions Used
-- `TRIM()`
-- `LOWER()`
-- `INITCAP()`
-- `TO_DATE()`
-- `COUNT()`
-- `CASE`
-- `ALTER TABLE`
-- `UPDATE`
-- Type Casting (`::`)
-- Regular Expressions
+- 🧹 Clean and preprocess raw retail transaction data
+- 🔍 Identify and resolve data-quality issues
+- 🗃️ Normalize the dataset using **Third Normal Form (3NF)**
+- 🏗️ Design a structured PostgreSQL relational database
+- 🔗 Establish relationships using primary and foreign keys
+- 📊 Perform SQL-based business analysis
+- 💡 Generate actionable insights related to sales, products, regions, and employees
 
 ---
 
-# 3. Database Normalization
+# 🛠️ Tech Stack
 
-The cleaned dataset was normalized into multiple relational tables using Third Normal Form (3NF) to reduce redundancy and improve database integrity.
+| Technology | Purpose |
+|---|---|
+| 🐘 **PostgreSQL** | Database management & SQL analysis |
+| 💻 **SQL** | Data cleaning, transformation & business analysis |
+| 📄 **CSV** | Raw and processed datasets |
+| 🗄️ **RDBMS** | Relational database design |
+| 🔗 **3NF** | Database normalization |
+| 📊 **ER Diagram** | Database structure & relationships |
 
-### Tables Created
-- `employees`
-- `products`
-- `sales`
+---
 
-### Relationships
+# 🔄 End-to-End Project Workflow
 
 ```text
-employees (1) ---- (M) sales (M) ---- (1) products
-```
-
-### Concepts Applied
-- Primary Keys
-- Foreign Keys
-- Relational Schema Design
-- Data Integrity Constraints
-
----
-
-# 4. PostgreSQL Database Design
-
-The normalized tables were implemented in PostgreSQL using:
-- `CREATE TABLE`
-- `PRIMARY KEY`
-- `FOREIGN KEY`
-- Constraints
-- Datatype Optimization
-
----
-
-# 5. Data Insertion
-
-Cleaned data was inserted into normalized tables using SQL insertion queries and relational mapping.
-
----
-
-# 6. SQL-Based Business Analysis
-
-Advanced SQL queries were written to analyze:
-- Employee performance
-- Product sales trends
-- Category-wise revenue
-- Monthly sales trends
-- Regional performance
-- Average order value
-- Top-performing products and employees
-
----
-
-# SQL Concepts Demonstrated
-
-This project demonstrates practical implementation of:
-
-- Joins
-- Aggregate Functions
-- GROUP BY
-- ORDER BY
-- Window Functions
-- Subqueries
-- CTEs
-- Data Cleaning Queries
-- Normalization
-- Relational Database Design
-
----
-
-# Sample Business Questions Solved
-
-- Which employee generated the highest sales?
-- Which product category contributes the most revenue?
-- What are the monthly sales trends?
-- Which products are best-selling?
-- Which region performs best?
-- What is the average order value?
-
----
-
-# Key Insights Generated
-
-- Identified top-performing employees
-- Analyzed high-revenue product categories
-- Evaluated regional sales performance
-- Observed monthly sales growth trends
-- Generated actionable retail business insights
-
----
-
-# ER Diagram
-
-The project includes a normalized ER diagram representing:
-- Employees Table
-- Products Table
-- Sales Table
-- Relationships between entities
-
----
-
-# Project Structure
-
-```text
-AniRetail-PostgreSQL-Analytics-Project/
-│
-├── README.md
-│
-├── raw_data/
-│   └── retail_sales_raw.csv
-│
-├── cleaned_data/
-│   └── retail_sales_clean.csv
-│
-├── sql_queries/
-│   │
-│   ├── data_cleaning.sql
-│   ├── data_normalization.sql
-│   ├── table_creation.sql
-│   ├── data_insertion.sql
-│   └── analysis_queries.sql
-│
-├── normalized_tables/
-│   │
-│   ├── employees_table.csv
-│   ├── products_table.csv
-│   └── sales_table.csv
-│
-├── ER_Diagram/
-│   └── ER_Diagram.jpeg
-│
-├── screenshots/
-│   │
-│   ├── raw_dataset.png
-│   ├── cleaned_dataset.png
-│   ├── normalized_tables.png
-│   ├── query_outputs.png
-│   └── analysis_results.png
-│
-└── report/
-    └── AniRetail_Project_Report.pdf
-```
-
----
-
-# Skills Demonstrated
-
-- SQL
-- PostgreSQL
-- Data Cleaning
-- Database Normalization
-- Relational Database Design
-- Business Analytics
-- Data Analysis
-- Analytical Thinking
-- Problem Solving
-
----
-
-# Conclusion
-
-AniRetail successfully demonstrates a complete end-to-end retail analytics workflow using PostgreSQL. The project highlights practical application of SQL, database normalization, and business analytics techniques to transform raw retail data into meaningful business insights.
-
----
-
-# Connect With Me
-
-## Aniket Mishra
-PGDM Candidate | Business Analytics & Marketing Enthusiast
-
-Passionate about combining business strategy, analytics, and technology to solve real-world business problems through data-driven decision making.
+                  ┌─────────────────────┐
+                  │    Raw CSV Data     │
+                  └──────────┬──────────┘
+                             ↓
+                  ┌─────────────────────┐
+                  │  Data Quality Audit │
+                  └──────────┬──────────┘
+                             ↓
+                  ┌─────────────────────┐
+                  │ Data Cleaning &     │
+                  │ Preprocessing       │
+                  └──────────┬──────────┘
+                             ↓
+                  ┌─────────────────────┐
+                  │ Data Validation     │
+                  └──────────┬──────────┘
+                             ↓
+                  ┌─────────────────────┐
+                  │ Database            │
+                  │ Normalization (3NF) │
+                  └──────────┬──────────┘
+                             ↓
+                  ┌─────────────────────┐
+                  │ PostgreSQL Schema   │
+                  │ & Relationships     │
+                  └──────────┬──────────┘
+                             ↓
+                  ┌─────────────────────┐
+                  │ Data Insertion      │
+                  └──────────┬──────────┘
+                             ↓
+                  ┌─────────────────────┐
+                  │ SQL Business        │
+                  │ Analysis            │
+                  └──────────┬──────────┘
+                             ↓
+                  ┌─────────────────────┐
+                  │ Business Insights   │
+                  └─────────────────────┘
