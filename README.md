@@ -1,4 +1,4 @@
-# 🛒 AniRetail — PostgreSQL Retail Analytics
+# 🛒 AniRetail - PostgreSQL Retail Analytics
 
 <p align="center">
 
